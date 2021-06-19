@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+    padding: 70vh;
+    padding-left: 80vh;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    animation: txt 10s ease;
+    position: relative;
+}
+
+.main{
+    height: 100vh;
+    background: url(Aj.jpg) no-repeat 100%;
+    background-position: center;
+    margin-top: 10px;
+    animation: aju 6s ease;
+}
+
+@keyframes aju{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes txt{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
